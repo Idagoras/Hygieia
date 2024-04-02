@@ -21,8 +21,6 @@ type AliyunService struct {
 	endPoint string
 }
 
-// LTAI5tDqg7uWWau237s5mfcn  CR3BTjjGEy0cpicElqF91JAnVsNXtT
-
 func NewAliyunService() (*AliyunService, error) {
 	provider, err := oss.NewEnvironmentVariableCredentialsProvider()
 	if err != nil {
