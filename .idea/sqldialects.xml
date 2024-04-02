@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/db/migration/000001_init_schema.down.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/migration/000001_init_schema.up.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/queries/eegdata.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/queries/eegsession.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/queries/message.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/queries/subscriber.sql" dialect="MySQL" />
+  </component>
+</project>

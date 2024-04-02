@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package pb;
+import "google/protobuf/timestamp.proto";
+option go_package = "Hygieia/pb";
+
+message EEGData{
+  uint64 eegSessionId = 1;
+  uint32 messageOffset = 2;
+  google.protobuf.Timestamp time = 3;
+  repeated uint32 raw = 4;
+  uint32 attention = 5;
+  uint32 meditation = 6;
+  uint32  blinkStrength = 7;
+  uint32 alpha1 = 8;
+  uint32 alpha2 = 9;
+  uint32 beta1 = 10;
+  uint32  beta2 = 11;
+  uint32  gamma1 = 12;
+  uint32  gamma2 = 13;
+  uint32 delta = 14;
+  uint32 theta = 15;
+  uint64 userId = 16;
+  bool isEnd = 17;
+}

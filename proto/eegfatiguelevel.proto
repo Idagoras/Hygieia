@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pb;
+import "google/protobuf/timestamp.proto";
+option go_package = "Hygieia/pb";
+
+message EEGFatigueLevel{
+  uint64 eegSessionId  = 1;
+  uint32 messageOffset = 2;
+  google.protobuf.Timestamp time = 3;
+  uint32 level = 4;
+}
